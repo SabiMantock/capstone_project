@@ -4,10 +4,168 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Capstone - Gaming Conference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="body active" id="body">
+    <!-- Header -->
+    <header class="header">
+      <button type="button" class="mobile-btn" id="menu-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+      <div class="header-container">
+        <div class="social">
+          <ul class="social-list">
+            <li class="social-item"><a href="#" class="social-link">fb</a></li>
+            <li class="social-item">
+              <a href="#" class="social-link">twitter</a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">English</a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">My Page</a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-container">
+          <a href="index.html" id="logo"
+            ><img src="images/logo.png" alt="logo"
+          /></a>
+
+          <nav class="navbar active" id="navbar">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">join</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+            </ul>
+          </nav>
+          <button class="campaign-btn">GG Ez</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Headline Section -->
+    <section class="headline">
+      <div class="headline-container">
+        <h1 id="headline-title">"Home is where you are 'Player 1'"</h1>
+        <h2 id="headline-subTitle">GG Global Conference, <br />2022</h2>
+        <div class="headline-description">
+          <p id="headline-text">
+            I'm the hero of a thousand stories. I'm a superhero, an assassin a
+            soldier. I've slain dragons and traveled through portals. I am a
+            spartan, a commander. A king. I've saved a thousand worlds and
+            countless more lives. What am I? I'm a gamer.
+          </p>
+        </div>
+        <h2 id="date">2022.12.31(SAT) ~ 1(SUN)</h2>
+        <p id="location">@ National Conference Center, Accra</p>
+      </div>
+    </section>
+
+    <!-- Main Program -->
+    <section class="program">
+      <div class="program-title">
+        <h3 id="program-title">Main Program</h3>
+        <hr class="underline" />
+      </div>
+      <div class="program-list" id="program-list"></div>
+      <button type="button" class="program-btn">
+        Join GG Global Conference 2022
+      </button>
+    </section>
+
+    <!-- Featured Program -->
+    <section class="feature">
+      <div class="featured-title">
+        <h3 id="featured_title">Featured Speakers</h3>
+        <hr class="underline" />
+      </div>
+      <div class="featured-list" id="featured-list">
+        <div class="featured-item">
+          <div class="featured-image">
+            <img src="images/checkers.png" alt="checkers" class="checkers" />
+            <img src="images/bb.png" alt="speaker" class="fsp" />
+          </div>
+          <div class="featured-content">
+            <h3 id="featured-title">Brandon Beck</h3>
+            <h4 id="featured-subTitle">
+              Co-founder & co-chairman of riot games
+            </h4>
+            <hr id="underline" />
+            <p id="featured-text">
+              A lifelong gamer, Brandon Beck cofounded Riot Games in 2006 with a
+              vision for a game that would become League of Legends and a game
+              company that would redefine the way video games are developed,
+              delivered, and supported for players.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="featured-btn-wrapper">
+        <button type="button" class="featured-btn">
+          <p>More</p>
+          <svg
+            width="12"
+            height="8"
+            viewBox="0 0 14 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L7.70711 7.70711C7.31658 8.09763 6.68342 8.09763 6.29289 7.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+              fill="#ec5242"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Partner -->
+    <section class="partner">
+      <div class="partner-title">
+        <h3 id="partner-title">Partner</h3>
+        <hr class="underline" />
+      </div>
+      <div class="sponsors">
+        <div class="sponsors-1">
+          <img class="sponsor-image" src="images/bethesda.png" alt="bethesda" />
+          <img class="sponsor-image" src="images/steam.png" alt="steam" />
+          <img class="sponsor-image" src="images/rockstar.png" alt="rockstar" />
+        </div>
+        <div class="sponsors-2">
+          <img class="sponsor-image" src="images/ubi.png" alt="ubisoft" />
+          <img class="sponsor-image" src="images/riot.png" alt="riot games" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-image">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <div class="rights">2022 A Gaming Industry. Some Rights Reserved</div>
+    </footer>
+    <!-- <a target="_blank" href="https://icons8.com/icon/5491/lecturer">Lecturer</a>
+    icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+    <!-- <a target="_blank" href="https://icons8.com/icon/34044/dota-2">Dota 2</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
     <script src="scripts.js"></script>
   </body>
 </html>
