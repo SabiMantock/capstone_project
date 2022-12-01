@@ -141,6 +141,5 @@ const moreBtn = () => {
   }
   return (items += 2);
 };
-window.onload = () => {
-  moreBtn;
-};
+
+moreBtn;
