@@ -46,6 +46,7 @@ After you're finished please remove all the comments and instructions!
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -80,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://sabimantock.github.io/capstone_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +181,14 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
 
 Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Cindy Shin for her beautiful design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
