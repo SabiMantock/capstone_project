@@ -282,7 +282,7 @@ p {
 }
 
 .images {
-  width: 300px;
+  width: 400px;
 }
 
 .pastEvents-text {
@@ -407,7 +407,7 @@ hr.underline {
 .featured-item {
   display: none;
   margin: 10px 10px;
-  gap: 30px;
+  gap: 50px;
 
   /* display: none; */
 }
@@ -426,7 +426,7 @@ hr.underline {
 }
 
 .checkers {
-  width: 60px;
+  width: 40px;
   position: relative;
 }
 
@@ -526,6 +526,11 @@ hr#underline {
   background-color: #fff;
 }
 
+.about-footer {
+  background-color: #272a31;
+  color: white;
+}
+
 .footer-image {
   width: 30%;
   display: flex;
@@ -546,6 +551,10 @@ hr#underline {
 .rights {
   /* width: 60%;  */
   color: #272a31;
+}
+
+.about-rights {
+  color: white;
 }
 
 @media (min-width: 769px) {
