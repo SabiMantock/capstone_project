@@ -48,7 +48,10 @@
           <nav class="navbar active" id="navbar">
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="#" class="nav-link active">About</a>
+                <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+                <a href="about.html" class="nav-link active">About</a>
               </li>
               <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
               <li class="nav-item"><a href="#" class="nav-link">join</a></li>
@@ -64,8 +67,8 @@
     <!-- Headline Section -->
     <section class="headline">
       <div class="headline-container">
-        <h1 id="headline-title">"Home is where you are 'Player 1'"</h1>
-        <h2 id="headline-subTitle">GG Global Conference, <br />2022</h2>
+        <p id="headline-title">"Home is where you are 'Player 1'"</p>
+        <h1 id="headline-subTitle">GG Global Conference, <br />2022</h1>
         <div class="headline-description">
           <p id="headline-text">
             I'm the hero of a thousand stories. I'm a superhero, an assassin a
@@ -98,29 +101,28 @@
         <hr class="underline" />
       </div>
       <div class="featured-list" id="featured-list">
-        <div class="featured-item">
-          <div class="featured-image">
-            <img src="images/checkers.png" alt="checkers" class="checkers" />
-            <img src="images/bb.png" alt="speaker" class="fsp" />
-          </div>
-          <div class="featured-content">
-            <h3 id="featured-title">Brandon Beck</h3>
-            <h4 id="featured-subTitle">
-              Co-founder & co-chairman of riot games
-            </h4>
-            <hr id="underline" />
-            <p id="featured-text">
-              A lifelong gamer, Brandon Beck cofounded Riot Games in 2006 with a
-              vision for a game that would become League of Legends and a game
-              company that would redefine the way video games are developed,
-              delivered, and supported for players.
-            </p>
-          </div>
-        </div>
+
       </div>
       <div class="featured-btn-wrapper">
-        <button type="button" class="featured-btn">
-          <p>More</p>
+        <button type="button" onclick="moreBtn()"  class="featured-btn" id="featured-btn">
+          More
+          <svg
+            width="12"
+            height="8"
+            viewBox="0 0 14 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L7.70711 7.70711C7.31658 8.09763 6.68342 8.09763 6.29289 7.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+              fill="#ec5242"
+            />
+          </svg>
+        </button>
+        <button type="button" onclick="lessBtn()" class="featured-btn" id="featured-btn-less">
+          Less
           <svg
             width="12"
             height="8"
@@ -159,7 +161,8 @@
     </section>
     <footer class="footer">
       <div class="footer-image">
-        <img src="images/logo.png" alt="" />
+        <img src="images/logo.png" alt="logo" class="foot-im" />
+        <p>GG Global <br/> Conference</p>
       </div>
       <div class="rights">2022 A Gaming Industry. Some Rights Reserved</div>
     </footer>
